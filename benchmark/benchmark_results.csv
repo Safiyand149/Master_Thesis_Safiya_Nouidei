@@ -1,0 +1,11 @@
+phase,method,query,avg_time,std_time,avg_mem_mb,std_mem_mb
+training,Original,N/A,16.583537105936557,11.4477448775433,988.767578125,667.904296875
+training,CLIP,N/A,15.464788329321891,0.6402560998685658,360.912109375,365.017578125
+inference,Original,un portrait d'une femme avec un chien,2.0348185978829862,0.48463923081457266,0.0,0.0
+inference,CLIP,un portrait d'une femme avec un chien,0.004176799952983856,0.0011894542018674988,0.0,0.0
+inference,Original,une scène de bataille historique,1.883306611329317,0.10255655682271349,0.0,0.0
+inference,CLIP,une scène de bataille historique,0.0034618481993675234,0.0011442925814446193,0.0,0.0
+inference,Original,un paysage avec des montagnes et un lac,1.0403260501101612,0.08095620526436717,0.0,0.0
+inference,CLIP,un paysage avec des montagnes et un lac,0.003998240455985069,0.0012968042864746098,0.0,0.0
+inference,Original,une nature morte avec des fruits,2.1781750358641148,0.28564102574515704,0.0,0.0
+inference,CLIP,une nature morte avec des fruits,0.002942836284637451,0.0002206396189543468,0.0,0.0
