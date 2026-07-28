@@ -2,7 +2,6 @@
 Generates 6 frames illustrating the progressive construction of the multimodal
 graph and shortest-path retrieval (Dijkstra), with a concrete example.
 
-Faithful to the thesis algorithm (Chapter 4):
 - Phase 1: Semantic Retrieval
 - Node types: image, caption, caption_label, hier_label, emotion
 - Weights: caption->image=1.0, caption_label->caption=0.8,
