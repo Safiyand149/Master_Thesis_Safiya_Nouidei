@@ -728,11 +728,6 @@ def _get_graph_index(G):
 def _map_query_to_graph(G, query_labels, threshold=0.45):
     """
     Map query labels onto graph nodes by cosine similarity (CamemBERT).
-    Improvements over the baseline:
-      - Threshold lowered to 0.60 (vs 0.75) to cover paraphrased queries.
-      - Guaranteed top-1 fallback: if no neighbour clears the threshold, take the
-        closest node with a reduced weight (avoids silent queries).
-      - Top-5 mappings per label (vs 2) for wider semantic coverage.
     """
     nodes, index = _get_graph_index(G)
     mapped = {}
