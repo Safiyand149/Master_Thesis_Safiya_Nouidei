@@ -1,7 +1,11 @@
 # Graph-Based Retrieval of Artworks from Narrative Inputs for Memory-Triggering Applications
 
 A retrieval system that returns artworks from a query written in French, based on a multimodal graph.
+
+
 The system is compared to a lexical baseline and to CLIP.
+
+
 The dataset of artworks and descriptions comes from **Fabritius / RMFAB** (Musées royaux des Beaux-Arts de Belgique).
 
 ## Structure
