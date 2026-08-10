@@ -99,6 +99,23 @@ python visualization.py     # generates frame_0.png … frame_5.png
 
 ---
 
+## License
+
+The code in this repository is released under the MIT License (see the
+[LICENSE](LICENSE) file for details).
+
+## Third-party components and data
+
+This project builds on pre-trained models and external libraries, each
+governed by its own license: CLIP, ResNet50 (torchvision), 
+sentence-camembert-large, and FAISS. Their terms apply to their respective
+components and are not covered by the MIT License above.
+
+The artwork data comes from the Royal Museums of Fine Arts of Belgium
+(RMFAB) and is subject to the museum's own usage conditions. The MIT
+License covers only the source code in this repository, not the underlying
+dataset or images.
+
 ## Author
 
 **Safiya Nouidei**
