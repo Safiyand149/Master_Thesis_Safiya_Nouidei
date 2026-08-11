@@ -6,7 +6,7 @@ A retrieval system that returns artworks from a query written in French, based o
 The system is compared to a lexical baseline and to CLIP.
 
 
-The dataset of artworks and descriptions comes from **Fabritius / RMFAB** (Musées royaux des Beaux-Arts de Belgique).
+The dataset of artworks and descriptions comes from **Fabritius / RMFAB** (Musées royaux des Beaux-Arts de Belgique) and are not publicly available.
 
 ## Structure
 
@@ -19,10 +19,11 @@ The dataset of artworks and descriptions comes from **Fabritius / RMFAB** (Musé
 | `benchmark.py` | Quantitative evaluation (time, memory, quality) of the system against **CLIP**. |
 | `benchmark_plots.py` | Generation of the benchmark figures. |
 | `visualization.py` | Generates 6 images illustrating the progressive construction of the graph and shortest-path reasoning (for master's thesis purposes). |
-| `fabritius_extract/` | Extraction and selection of artworks from the JSON export (`fab_sel_workid_v1/v2`, `fab_dump_v2`). |
-| `fabritius_data_base/` | Source data: `fabritius_export.json.xz`. |
-
+| `fabritius_extract/` | [Empty in the public repository] Extraction and selection of artworks from the JSON export (`fab_sel_workid_v1/v2`, `fab_dump_v2`). |
+| `fabritius_data_base/` | [Empty in the public repository] Source data: `fabritius_export.json.xz`. |
 ---
+
+All files and folders related to Fabritius are not in this github repository as they are not publicly available. 
 
 ## Prerequisites
 
