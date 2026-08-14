@@ -1,13 +1,6 @@
 """
 Generates 6 frames illustrating the progressive construction of the multimodal
 graph and shortest-path retrieval (Dijkstra), with a concrete example.
-
-- Phase 1: Semantic Retrieval
-- Node types: image, caption, caption_label, hier_label, emotion
-- Weights: caption->image=1.0, caption_label->caption=0.8,
-           hier_label->image=0.5+0.5*log(1+d), emotion->image=0.8
-- Learned co-occurrences (edges between labels)
-- Dijkstra: shortest path from TEXT (query) to the IMAGE nodes
 """
 
 import matplotlib
